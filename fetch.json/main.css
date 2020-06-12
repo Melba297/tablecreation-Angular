@@ -1,0 +1,37 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  background-color: white;
+}
+#fetch,
+#axios,
+thead,
+tbody,
+td,
+tr {
+  border: 2px solid gray;
+}
+tr:hover {
+  background: lightblue;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+#fetch,
+#axios {
+  border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+  background: white;
+}
+tbody tr:nth-child(odd) {
+  background: lightgray;
+}
+tbody tr:hover {
+  background: lightblue;
+}
